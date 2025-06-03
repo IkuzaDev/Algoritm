@@ -5,11 +5,16 @@ Repository ini berisi implementasi berbagai algoritma menggunakan Node.js.
 ## Daftar Algoritma
 
 ### Sorting Numerik
-- [Bubble Sort](./sorting%20-%20numeric/BubbleSort.js) - Algoritma pengurutan sederhana dengan membandingkan dan menukar elemen bersebelahan
-- [Selection Sort](./sorting%20-%20numeric/SelectionSort.js) - Algoritma pengurutan dengan mencari nilai minimum pada setiap iterasi
-- [Insertion Sort](./sorting%20-%20numeric/InsertionSort.js) - Algoritma pengurutan dengan menyisipkan elemen ke posisi yang tepat
-- [Merge Sort](./sorting%20-%20numeric/MergeSort.js) - Algoritma pengurutan dengan metode divide and conquer
-- [Quick Sort](./sorting%20-%20numeric/QuickSort.js) - Algoritma pengurutan cepat dengan metode pivot dan partisi
+- [Bubble Sort](./sorting%20-%20numeric/BubbleSort.js)
+  > Algoritma pengurutan sederhana dengan membandingkan dan menukar elemen bersebelahan
+- [Selection Sort](./sorting%20-%20numeric/SelectionSort.js)
+  > Algoritma pengurutan dengan mencari nilai minimum pada setiap iterasi
+- [Insertion Sort](./sorting%20-%20numeric/InsertionSort.js)
+  > Algoritma pengurutan dengan menyisipkan elemen ke posisi yang tepat
+- [Merge Sort](./sorting%20-%20numeric/MergeSort.js)
+  > Algoritma pengurutan dengan metode divide and conquer
+- [Quick Sort](./sorting%20-%20numeric/QuickSort.js)
+  > Algoritma pengurutan cepat dengan metode pivot dan partisi
 
 ### Sorting Graph
 - [Topological Sort](./sorting%20-%20DAG/TopologicalSort.js)
@@ -30,6 +35,7 @@ Repository ini berisi implementasi berbagai algoritma menggunakan Node.js.
 1. Pastikan Node.js sudah terinstall di sistem anda
 2. Buka terminal/command prompt
 3. Masuk ke direktori algoritma yang ingin dijalankan
+   ```cd sorting - DAG``` atau ```cd sorting numeric```
 4. Jalankan dengan perintah:
    ```bash
    node namafile.js
