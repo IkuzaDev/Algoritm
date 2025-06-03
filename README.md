@@ -5,8 +5,8 @@ Repository ini berisi implementasi berbagai algoritma menggunakan Node.js.
 ## Daftar Algoritma
 
 ### Sorting Numerik
-- [Bubble Sort](./sorting%20-%20numeric/bubbleSort.js) - Algoritma pengurutan sederhana dengan membandingkan dan menukar elemen bersebelahan
-- [Selection Sort](./sorting%20-%20numeric/selectionSort.js) - Algoritma pengurutan dengan mencari nilai minimum pada setiap iterasi
+- [Bubble Sort](./sorting%20-%20numeric/BubbleSort.js) - Algoritma pengurutan sederhana dengan membandingkan dan menukar elemen bersebelahan
+- [Selection Sort](./sorting%20-%20numeric/SelectionSort.js) - Algoritma pengurutan dengan mencari nilai minimum pada setiap iterasi
 - [Insertion Sort](./sorting%20-%20numeric/InsertionSort.js) - Algoritma pengurutan dengan menyisipkan elemen ke posisi yang tepat
 - [Merge Sort](./sorting%20-%20numeric/MergeSort.js) - Algoritma pengurutan dengan metode divide and conquer
 - [Quick Sort](./sorting%20-%20numeric/QuickSort.js) - Algoritma pengurutan cepat dengan metode pivot dan partisi
