@@ -12,7 +12,18 @@ Repository ini berisi implementasi berbagai algoritma menggunakan Node.js.
 - [Quick Sort](./sorting%20-%20numeric/QuickSort.js) - Algoritma pengurutan cepat dengan metode pivot dan partisi
 
 ### Sorting Graph
-- [Topological Sort](./sorting%20-%20DAG/TopologicalSort.js) - Algoritma pengurutan untuk Directed Acyclic Graph (DAG)
+- [Topological Sort](./sorting%20-%20DAG/TopologicalSort.js)
+  > Algoritma pengurutan untuk Directed Acyclic Graph (DAG)
+- [DFS Topological Sort](./sorting%20-%20DAG/DFSTopologicalSort.js)
+  > Implementasi Topological Sort dengan DFS
+- [Cycle Detection](./sorting%20-%20DAG/CycleDetection.js)
+  > Deteksi siklus dalam graph
+- [Colored DFS](./sorting%20-%20DAG/ColoredDFS.js)
+  > Implementasi DFS dengan pewarnaan node
+- [Tarjan SCC](./sorting%20-%20DAG/TarjanSCC.js)
+  > Implementasi Tarjan untuk Strongly Connected Components
+- [Kosaraju SCC](./sorting%20-%20DAG/KosarajuSCC.js)
+  > Implementasi Kosaraju untuk Strongly Connected Components
 
 ## Cara Menjalankan
 
@@ -61,6 +72,30 @@ Repository ini berisi implementasi berbagai algoritma menggunakan Node.js.
 - **Cara Kerja**: Mengurutkan vertex dalam DAG sehingga edge mengarah ke depan
 - **Kelebihan**: Ideal untuk dependency resolution
 - **Kekurangan**: Hanya bekerja pada DAG
+
+### Cycle Detection
+- **Kompleksitas**: O(V + E)
+- **Cara Kerja**: Menggunakan DFS dengan recursion stack untuk mendeteksi siklus
+- **Kelebihan**: Dapat mendeteksi siklus dalam graph
+- **Kekurangan**: Membutuhkan tambahan memori untuk recursion stack
+
+### Colored DFS
+- **Kompleksitas**: O(V + E)
+- **Cara Kerja**: Menggunakan 3 warna untuk melacak status node
+- **Kelebihan**: Dapat mendeteksi siklus dan melakukan topological sort
+- **Kekurangan**: Memerlukan space tambahan untuk tracking warna
+
+### Tarjan SCC
+- **Kompleksitas**: O(V + E)
+- **Cara Kerja**: Menggunakan DFS dengan indeks dan lowlink values
+- **Kelebihan**: Single pass algorithm, efisien
+- **Kekurangan**: Kompleks untuk diimplementasi
+
+### Kosaraju SCC
+- **Kompleksitas**: O(V + E)
+- **Cara Kerja**: Menggunakan dua pass DFS dengan graph reversal
+- **Kelebihan**: Mudah dimengerti dan diimplementasi
+- **Kekurangan**: Membutuhkan dua pass melalui graph
 
 ## Kontribusi
 
